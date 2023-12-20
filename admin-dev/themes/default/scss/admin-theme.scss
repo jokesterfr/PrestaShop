@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 //Compass is required to pre-compile this stylesheets to .css
-@import "~bourbon/app/assets/stylesheets/bourbon";
+@import "~bourbon/core/_bourbon";
 
 @import "modules/colors";
 @import "modules/variables";
@@ -23,7 +23,8 @@
 @import "~open-sans-fonts/open-sans-bold";
 
 //Bootstrap's rules applied only on div#content.bootstrap, nav.bootstrap, header.bootstrap, footer.bootstrap
-.bootstrap {	//Core CSS
+.bootstrap {
+  //Core CSS
   @import "vendor/bootstrap-sass/scaffolding";
   @import "vendor/bootstrap-sass/type";
   @import "vendor/bootstrap-sass/code";
@@ -70,7 +71,8 @@
 @import "partials/icons";
 
 // stylelint-disable-next-line
-.bootstrap {	//Partials
+.bootstrap {
+  //Partials
   @import "partials/commons";
   @import "partials/tables";
   @import "partials/tree";
@@ -94,7 +96,6 @@
   @import "controllers/themes";
   @import "controllers/order";
   @import "controllers/products";
-
 }
 @import "controllers/cartrules";
 
