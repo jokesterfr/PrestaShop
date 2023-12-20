@@ -125,7 +125,7 @@
         background-color: #eee;
         border: solid 1px #ccc;
         @include border-radius(3px);
-        @include box-shadow(rgba(0,0,0,0.2) 0 1px 3px inset);
+        @include box-shadow(rgba(0, 0, 0, 0.2) 0 1px 3px inset);
       }
     }
   }
@@ -150,7 +150,7 @@
     td {
       color: #fff;
       background-color: $brand-primary !important;
-      @include transform(translate(5px,10px));
+      @include translate(5px, 10px);
     }
   }
 
@@ -303,7 +303,7 @@ tr.highlighted td {
       width: 100%;
       margin-bottom: 6px;
       border: 1px solid #ccc;
-      @include box-shadow(#EAEDEF 0 2px 0 0 );
+      @include box-shadow(#eaedef 0 2px 0 0);
 
       &:last-child {
         border-bottom: 1px solid #ccc;
